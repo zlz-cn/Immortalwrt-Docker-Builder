@@ -1,5 +1,5 @@
 FROM scratch
 
-LABEL org.opencontainers.image.authors="zzsrv"
+LABEL org.opencontainers.image.authors="zlz_cn"
 
 ADD *.tar.gz /
