@@ -87,7 +87,7 @@ jobs:
 
       - name: Set Image Builder
         run: |
-          tar --use-compress-program=unzstd -xvf *.tar.xz
+          tar --use-compress-program=unzstd -xvf *.tar.zst
           cd immortalwrt-imagebuilder-$TARGET_VERSION-$DEVICE_TARGET-$DEVICE_SUBTARGET.Linux-x86_64
           cp -rf $GITHUB_WORKSPACE/files .
           chmod +x files/etc/rc.local
