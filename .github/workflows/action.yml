@@ -90,6 +90,7 @@ jobs:
           tar --use-compress-program=unzstd -xvf *.tar.zst
           cd immortalwrt-imagebuilder-$TARGET_VERSION-$DEVICE_TARGET-$DEVICE_SUBTARGET.Linux-x86_64
           cp -rf $GITHUB_WORKSPACE/files .
+          cp -rf $GITHUB_WORKSPACE/packages .
           chmod +x files/etc/rc.local
 
       - name: Build RootFS (amd64)
