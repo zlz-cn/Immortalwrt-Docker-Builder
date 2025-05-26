@@ -1,8 +1,8 @@
 name: Actions ImmortalWrt Docker Images
 
 env:
-  PREFIX_URL: https://downloads.immortalwrt.org/releases/24.10.0/targets
-  TARGET_VERSION: 24.10.0
+  PREFIX_URL: https://downloads.immortalwrt.org/releases/24.10.1/targets
+  TARGET_VERSION: 24.10.1
 
 on:
   workflow_dispatch:
